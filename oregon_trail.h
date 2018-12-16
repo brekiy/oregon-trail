@@ -64,8 +64,9 @@ public:
   void set_cash(int var);
 };
 
-void store_input(void* var);
-
+template <typename T>
+void store_input(T var);
 void game_loop();
-
-void print_instructions();
+void print_intro();
+void print_intro_instructions();
+void intro_purchases();
