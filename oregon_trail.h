@@ -50,12 +50,12 @@ public:
   void print_inventory();
 
   // getters and setters - probably a better way to do it
-  int get_oxen(int var);
-  int get_food(int var);
-  int get_ammo(int var);
-  int get_clothing(int var);
-  int get_misc_supplies(int var);
-  int get_cash(int var);
+  int get_oxen();
+  int get_food();
+  int get_ammo();
+  int get_clothing();
+  int get_misc_supplies();
+  int get_cash();
   void set_oxen(int var);
   void set_food(int var);
   void set_ammo(int var);
@@ -69,4 +69,5 @@ void store_input(T var);
 void game_loop();
 void print_intro();
 void print_intro_instructions();
-void intro_purchases();
+void initial_purchases(Wagon wagon);
+int get_int_input(int min, int max);

@@ -1,4 +1,4 @@
-EXECUTABLE  = tic_tac_toe
+EXECUTABLE  = oregon_trail
 
 # designate which compiler to use
 CXX         = g++
